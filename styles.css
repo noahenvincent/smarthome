@@ -105,6 +105,7 @@ input, select {
 
 /*onze CODE*/
 
+/*HEADER (bovenste balk van de website)*/
 * {
 margin: 0;
 padding: 0;
@@ -157,9 +158,7 @@ header nav ul li a {
   text-transform: uppercase;
 }
 
-header .header-cases {
-  display: none;
-}
+
 
 @media only screen and (min-width: 1000px) {
   header .header-logo{
@@ -177,20 +176,6 @@ header .header-cases {
 
   header nav ul li a {
     line-height: 60px;
-  }
-
-  header .header-cases {
-    display: block;
-    font-family: Catamaran;
-    font-size: 16px;
-    color: #111;
-    text-transform: uppercase;
-    line-height: 38px;
-    border: 1px solid #111;
-    float: right;
-    margin-right: 40px;
-    margin-top: 30px;
-    padding: 0 20px;
   }
 }
 
